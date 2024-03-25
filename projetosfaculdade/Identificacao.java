@@ -15,7 +15,7 @@ public class Identificacao {
         System.out.println("Digite seu nome: ");
         nome = ler.nextLine();
         
-        System.out.println("Digite ssua idade: ");
+        System.out.println("Digite sua idade: ");
         idade = ler.nextLine();
         
         System.out.println("Digite sua cidade: ");
