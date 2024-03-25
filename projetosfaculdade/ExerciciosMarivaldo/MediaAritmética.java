@@ -1,7 +1,7 @@
 
-package projetosfaculdade;
+package projetosmarivaldo;
 
-public class MediaAritm√©tica {
+public class MediaAritmÈtica {
 
     public static void main(String[] args) {
         int num1 = 8;
@@ -21,7 +21,7 @@ public class MediaAritm√©tica {
         double soma = media1 + media2;
         double media = soma / 2;
         
-        System.out.println("A soma entre as medias √© " + soma + " e a media entre os numeros √© " + media );
+        System.out.println("A soma entre as medias È " + soma + " e a media entre os numeros È " + media );
         
     }
     

@@ -1,5 +1,5 @@
 
-package projetosfaculdade;
+package projetosmarivaldo;
 
 import java.util.Scanner;
 
@@ -10,11 +10,11 @@ public class SistemaDeIdade {
 
         int idade, anos, mes, meses, dia, resultado;
         
-        System.out.println("Quantos anos vocÃª tem? ");
+        System.out.println("Quantos anos você tem? ");
         idade = ler.nextInt();
         anos = idade * 365;
 
-        System.out.println("Em qual mÃªs voce nasceu? ");
+        System.out.println("Em qual mês voce nasceu? ");
         mes = ler.nextInt();
         meses = mes * 30;
         
