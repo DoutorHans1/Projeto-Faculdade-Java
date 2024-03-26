@@ -1,13 +1,21 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package projetosmarivaldo;
 
-/**
- *
- * @author 722411498
- */
+import java.util.Scanner;
+
 public class DeterminarIdade {
-    
+     public static void main(String[] args) {
+         Scanner ler = new Scanner(System.in);
+        
+        int idade;
+        
+        System.out.println("Digite sua idade: ");
+        idade = ler.nextInt();
+        
+        if (idade >= 18){
+            System.out.println("Você é maior de idade.");
+        } else {
+            System.out.println("Você é menor de idade");
+        }        
+    }
 }
