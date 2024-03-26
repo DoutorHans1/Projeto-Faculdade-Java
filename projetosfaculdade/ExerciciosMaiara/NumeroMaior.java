@@ -1,5 +1,5 @@
 
-package projetosfaculdade;
+package projetosmaiara;
 
 import java.util.Scanner;
 

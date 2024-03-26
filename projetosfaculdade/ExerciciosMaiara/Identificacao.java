@@ -1,5 +1,5 @@
 
-package projetosfaculdade;
+package projetosmaiara;
 
 import java.util.Scanner;
 
@@ -24,7 +24,7 @@ public class Identificacao {
         System.out.println("Digite o nome do professor(a): ");
         prof = ler.nextLine();
         
-        System.out.println("Ol√°, meu nome √© " + nome + " tenho " + idade + " anos e sou da cidade de "
+        System.out.println("Ol·, meu nome È " + nome + " tenho " + idade + " anos e sou da cidade de "
                  + cidade + ". Estou aprendendo a programar com o(a) Prof. " + prof );
 
     }

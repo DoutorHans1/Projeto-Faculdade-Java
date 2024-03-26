@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class DeterminarNumeros {
     public static void main(String[] args) {
+        
         Scanner ler = new Scanner(System.in);
         
         float numero;
@@ -18,8 +19,5 @@ public class DeterminarNumeros {
         } else {
             System.out.println("O número " + numero + " é nulo.");
         }
-
-
-
     }
 }
