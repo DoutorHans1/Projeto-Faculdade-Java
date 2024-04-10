@@ -10,18 +10,18 @@ public class SistemaDeIdade {
 
         int idade, anos, mes, meses, dia, resultado;
         
-        System.out.println("Quantos anos vocÃª tem? ");
+        System.out.println("Quantos anos você tem? ");
         idade = ler.nextInt();
         anos = idade * 365;
 
-        System.out.println("Em qual mÃªs voce nasceu? ");
+        System.out.println("Em qual mês voce nasceu? ");
         mes = ler.nextInt();
         meses = mes * 30;
         
         System.out.println("Em que dia voce nasceu? ");
         dia = ler.nextInt();
         
-        resultado = anos + meses + dia;
+        resultado = idade + meses + dia;
         
         System.out.println("Voce tem " + resultado + " dias de vida");
     }
